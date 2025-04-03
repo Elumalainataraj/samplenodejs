@@ -46,3 +46,4 @@ jobs:
             cd /opt/samplenodejs
             git fetch && git pull
           timeout: 300s
+          debug: true
