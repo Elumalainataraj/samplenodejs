@@ -43,7 +43,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /opt/samplenodejs
+            cd /opt/nodejs/samplenodejs
             git fetch && git pull
           timeout: 300s
           debug: true
