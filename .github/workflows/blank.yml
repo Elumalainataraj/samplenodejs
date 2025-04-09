@@ -27,7 +27,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
-          username: ${{ secrets.USERNAME }}
+          username: ${{ secrets.USER_NAME }}
           key: ${{ secrets.KEY }}
           script: |
             cd /opt/samplenodejs
