@@ -44,5 +44,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /opt/samplenodejs
-            sudo git fetch && sudo git pull
+            git fetch && git pull
           timeout: 300s
